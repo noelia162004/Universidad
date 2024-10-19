@@ -1,0 +1,22 @@
+/*Mostrar solamente el campo clave de la tabla materias*/
+
+select clave from materias;
+
+
+/*Mostrar solamente el campo clave y nombre de la tabla materias*/
+
+select clave,nombre from materias;
+
+/*Mostrar solamente el campo clave , nombre y profesor de la tabla materias*/
+
+select clave,nombre, profesor from materias;
+
+/*Mostrar solamente el campo clave , nombre , profesor y cuatrimestre de la tabla materias*/
+
+select clave,nombre, profesor, cuatrimestre from materias;
+
+/*Mostrar solamente el campo nombre y cuatrimestre de la tabla materias*/
+
+select nombre, cuatrimestre from materias;
+
+
